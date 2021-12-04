@@ -1,0 +1,166 @@
+.background {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(http://shanereact.ibthemespro.com/img/slider/3.jpg);
+  position: relative;
+}
+
+.background .wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background__content {
+  background-color: transparent;
+  width: 400px;
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
+  color: #fff;
+}
+
+.background__content > * {
+  width: 485px;
+}
+
+.background__content__name {
+  font-size: 50px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  font-family: "Montserrat";
+}
+
+.background__content__tag ul h2 {
+  padding: 30px 0;
+  font-size: 27px;
+}
+
+.background__content__skill ul {
+  list-style: none;
+  height: 80px;
+  overflow: hidden;
+}
+
+.background__content__skill ul li {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 80px;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.background__content__button {
+  margin-top: 20px;
+}
+
+.background__content__button a {
+  border: 2px solid #fff;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.background__content__button a i {
+  margin-right: 20px;
+}
+
+@-webkit-keyframes slide {
+  14% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  28% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  42% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+  }
+  56% {
+    -webkit-transform: translateY(-240px);
+            transform: translateY(-240px);
+  }
+  70% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+  }
+  84% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes slide {
+  14% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  28% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  42% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+  }
+  56% {
+    -webkit-transform: translateY(-240px);
+            transform: translateY(-240px);
+  }
+  70% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+  }
+  84% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+header {
+  z-index: 999;
+}
+
+.bar {
+  display: none;
+}
+/*# sourceMappingURL=background.css.map */
